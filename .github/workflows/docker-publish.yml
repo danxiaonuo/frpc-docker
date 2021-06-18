@@ -21,7 +21,7 @@ on:
     inputs:
       build:
         description: 'build frpc-docker'
-        required: false
+        required: true
         default: 'build frpc-docker'
   # 定时触发编译(每天早5点)
   schedule:
